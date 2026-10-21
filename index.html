@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The portfolio of Meerab Jamshaid — BSCS student, aspiring software developer, web developer and graphic designer.">
+  <meta name="theme-color" content="#f7f3ee">
+  <title>Meerab Jamshaid — Creative Technologist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Meerab Jamshaid home"><span class="brand-mark">M</span><span>meerab<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav" class="main-nav">
+      <a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#work">Work</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions"><button id="themeToggle" class="icon-button" aria-label="Toggle color theme" title="Toggle theme">☾</button><button class="button button-small button-outline" id="ownerButton">Owner area ↗</button></div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="eyebrow-line"></span> PORTFOLIO · 2026</div>
+        <p class="hero-kicker">Hello, I'm</p>
+        <h1>Meerab <em>Jamshaid.</em></h1>
+        <div class="role-line"><span id="rotatingRole">BSCS Student</span><span class="cursor">|</span></div>
+        <p class="hero-description">I bring technology and creativity together to build thoughtful digital experiences, expressive visuals, and useful web solutions.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <span>↗</span></a><a class="button button-outline" href="#contact">Let's connect</a><button class="text-button" id="downloadCvHero">Download CV ↓</button></div>
+        <div class="hero-note"><span class="status-dot"></span> Learning, creating, and growing with intention</div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="art-orbit orbit-a"></div><div class="art-orbit orbit-b"></div>
+        <div class="portrait-frame"><div class="portrait-placeholder" id="heroPortrait"><span class="portrait-monogram">M.</span><span class="portrait-hint">Your portrait goes here</span></div></div>
+        <div class="floating-card card-design"><span class="float-icon">✳</span><div><strong>Design + Code</strong><small>One curious mind</small></div></div>
+        <div class="floating-card card-location"><span class="mini-dot"></span><div><strong>Open to opportunities</strong><small>Projects · Freelance · Learning</small></div></div>
+        <div class="art-caption">CREATIVE THINKING / DIGITAL MAKING</div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="intro-strip"><div class="strip-inner"><span>WEB DEVELOPMENT</span><i>✳</i><span>CREATIVE DESIGN</span><i>✳</i><span>AI-ASSISTED IDEAS</span><i>✳</i><span>DIGITAL EXPERIENCES</span></div></section>
+
+    <section class="section section-wrap" id="about">
+      <div class="section-heading reveal"><div><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2>Curiosity is my<br><em>creative advantage.</em></h2></div><p class="section-intro">A growing blend of technology, design, and a love for learning.</p></div>
+      <div class="about-grid">
+        <div class="about-quote reveal"><span class="quote-mark">“</span><p id="aboutQuote">I believe good digital work should feel intuitive, look considered, and solve a real problem.</p><span class="quote-signature">— Meerab</span><div class="quote-decoration">M</div></div>
+        <div class="about-content reveal"><p id="aboutBio">I'm a BSCS student exploring the intersection of web development, UI/UX, graphic design, and AI-assisted creativity. My background in Islamic Studies and Arabic has also shaped my appreciation for thoughtful communication, discipline, and lifelong learning.</p><div class="about-facts"><div><span class="fact-number">01</span><div><strong>Currently learning</strong><small>Computer science & modern web tools</small></div></div><div><span class="fact-number">02</span><div><strong>Interested in</strong><small>Digital products, visual design & useful technology</small></div></div><div><span class="fact-number">03</span><div><strong>My approach</strong><small>Stay curious. Build carefully. Keep improving.</small></div></div></div></div>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="education"><div class="section-wrap">
+      <div class="section-heading reveal"><div><p class="eyebrow">02 / EDUCATION</p><h2>Learning is a <em>journey.</em></h2></div><p class="section-intro">Academic foundations that continue to shape my perspective.</p></div>
+      <div class="education-grid" id="educationGrid"></div>
+    </div></section>
+
+    <section class="section section-wrap" id="skills">
+      <div class="section-heading reveal"><div><p class="eyebrow">03 / MY TOOLKIT</p><h2>Skills in progress.<br><em>Possibilities in motion.</em></h2></div><p class="section-intro">A growing toolkit across code, creative design, and digital work.</p></div>
+      <div class="skills-grid" id="skillsGrid"></div>
+      <p class="micro-note">Skills are presented as areas of practice—not invented proficiency scores.</p>
+    </section>
+
+    <section class="section section-tinted" id="services"><div class="section-wrap">
+      <div class="section-heading reveal"><div><p class="eyebrow">04 / WHAT I CAN HELP WITH</p><h2>Thoughtful work, <em>made with care.</em></h2></div><p class="section-intro">Service areas can be refined as my experience grows.</p></div>
+      <div class="services-grid" id="servicesGrid"></div>
+    </div></section>
+
+    <section class="section section-wrap" id="work">
+      <div class="section-heading reveal"><div><p class="eyebrow">05 / SELECTED WORK</p><h2>A place for ideas <em>to take shape.</em></h2></div><p class="section-intro">Explore projects by category. Replace the starter cards with your real work.</p></div>
+      <div class="project-toolbar"><div class="filter-list" id="projectFilters"></div><button class="button button-outline owner-only" id="addProjectBtn">＋ Add project</button></div>
+      <div class="projects-grid" id="projectsGrid"></div>
+      <div class="empty-work" id="emptyProjects" hidden><span>✳</span><h3>Your next project starts here.</h3><p>Add your first real project from the owner area.</p></div>
+    </section>
+
+    <section class="section section-tinted" id="experience"><div class="section-wrap">
+      <div class="section-heading reveal"><div><p class="eyebrow">06 / EXPERIENCE</p><h2>Every step adds <em>perspective.</em></h2></div><p class="section-intro">Teaching, freelancing, and practical learning—details can be updated as you go.</p></div>
+      <div id="experienceList" class="experience-list"></div>
+    </div></section>
+
+    <section class="section section-wrap" id="certificates">
+      <div class="section-heading reveal"><div><p class="eyebrow">07 / CERTIFICATES</p><h2>Small milestones. <em>Real progress.</em></h2></div><p class="section-intro">Add verified certificate files and details whenever you're ready.</p></div>
+      <div id="certificatesGrid" class="certificates-grid"></div>
+      <button class="button button-outline owner-only" id="addCertificateBtn">＋ Add certificate</button>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="section-wrap contact-layout">
+      <div class="contact-copy reveal"><p class="eyebrow">08 / GET IN TOUCH</p><h2>Have an idea?<br><em>Let's make it real.</em></h2><p>For collaboration, freelance enquiries, or a friendly professional hello, send me an email.</p><a class="contact-email" href="mailto:meerabjamshaid56@gmail.com">meerabjamshaid56@gmail.com ↗</a></div>
+      <form id="contactForm" class="contact-form reveal"><label for="senderName">Your name</label><input id="senderName" name="name" required placeholder="How should I address you?"><label for="senderEmail">Your email</label><input id="senderEmail" name="email" type="email" required placeholder="you@example.com"><label for="senderMessage">Your message</label><textarea id="senderMessage" name="message" required rows="4" placeholder="Tell me a little about your idea..."></textarea><button class="button button-primary" type="submit">Prepare email ↗</button><p class="form-note" id="contactFeedback">This opens your email app; it does not send anything automatically.</p></form>
+    </div></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">M</span><span>meerab<span class="brand-dot">.</span></span></a><p>Designed with intention. Built with curiosity.</p><span>© <span id="year"></span> Meerab Jamshaid</span></footer>
+
+  <!-- Owner workspace: local-only editing and uploads -->
+  <div class="modal-backdrop" id="ownerModal" hidden><section class="owner-panel" role="dialog" aria-modal="true" aria-labelledby="ownerTitle">
+    <div class="panel-header"><div><p class="eyebrow">PRIVATE WORKSPACE · THIS BROWSER</p><h2 id="ownerTitle">Portfolio <em>studio</em></h2></div><button class="icon-button" id="closeOwner" aria-label="Close owner workspace">✕</button></div>
+    <div class="panel-tabs" id="panelTabs"><button class="panel-tab active" data-tab="profile">Profile</button><button class="panel-tab" data-tab="projects">Projects</button><button class="panel-tab" data-tab="files">Files & CV</button><button class="panel-tab" data-tab="certificates">Certificates</button><button class="panel-tab" data-tab="data">Backup</button></div>
+    <div class="panel-content">
+      <div class="tab-content active" id="tab-profile"><form id="profileForm" class="editor-form">
+        <div class="form-two"><div><label for="editTitle">Professional title</label><input id="editTitle"></div><div><label for="editLocation">Location (optional)</label><input id="editLocation" placeholder="e.g. Pakistan"></div></div>
+        <label for="editBio">Professional biography</label><textarea id="editBio" rows="4"></textarea><label for="editQuote">About quote</label><input id="editQuote"><label for="profilePhotoInput">Profile photo</label><input type="file" id="profilePhotoInput" accept="image/png,image/jpeg,image/webp"><p class="form-note">Photo is saved in this browser only. Use a reasonably small image.</p><label for="cvInput">CV / Resume (PDF recommended)</label><input type="file" id="cvInput" accept=".pdf,.doc,.docx"><div id="cvStatus" class="file-status">No CV uploaded yet.</div><button class="button button-primary" type="submit">Save profile</button><p id="profileFeedback" class="form-note"></p>
+      </form></div>
+      <div class="tab-content" id="tab-projects"><div class="editor-topline"><p>Add, edit, or remove portfolio projects.</p><button class="button button-primary button-small" id="newProjectEditor">＋ New project</button></div><div id="projectEditorList" class="editor-list"></div><form id="projectEditorForm" class="editor-form" hidden>
+        <input type="hidden" id="projectId"><label for="projectTitle">Project title</label><input id="projectTitle" required><div class="form-two"><div><label for="projectCategory">Category</label><select id="projectCategory"><option>Web Development</option><option>UI/UX Design</option><option>Graphic Design</option><option>AI Design</option><option>WordPress</option><option>SEO & Digital Projects</option></select></div><div><label for="projectDate">Completion date</label><input id="projectDate" placeholder="e.g. Oct 2026"></div></div><label for="projectDescription">Description</label><textarea id="projectDescription" rows="3" required></textarea><label for="projectTools">Tools (comma separated)</label><input id="projectTools" placeholder="HTML, CSS, JavaScript"><div class="form-two"><div><label for="projectLive">Live demo URL</label><input id="projectLive" type="url" placeholder="https://..."></div><div><label for="projectRepo">GitHub URL</label><input id="projectRepo" type="url" placeholder="https://github.com/..."></div></div><label for="projectImage">Cover image</label><input id="projectImage" type="file" accept="image/*"><div class="editor-actions"><button class="button button-primary" type="submit">Save project</button><button class="button button-outline" type="button" id="cancelProject">Cancel</button></div><p class="form-note">For large images, keep files small to avoid filling browser storage.</p></form></div>
+      <div class="tab-content" id="tab-files"><p class="panel-explainer">Files added here stay in this browser on this device. They are not uploaded to a server and are not automatically public.</p><form id="uploadForm" class="upload-drop"><span class="upload-symbol">↑</span><strong>Choose files to add</strong><span>PDF, images, DOCX, ZIP and other professional files</span><input id="fileInput" type="file" multiple accept=".pdf,.jpg,.jpeg,.png,.webp,.docx,.zip,.doc"><button class="button button-outline" type="button" id="browseFiles">Browse files</button></form><div class="file-filters"><input id="fileSearch" placeholder="Search files..."><select id="fileCategory"><option value="all">All categories</option><option>CV / Resume</option><option>Education</option><option>Certificate</option><option>Project image</option><option>Design sample</option><option>Source code</option><option>Other</option></select></div><div id="managedFiles" class="managed-files"></div></div>
+      <div class="tab-content" id="tab-certificates"><div class="editor-topline"><p>Keep certificate details accurate and upload the original file.</p><button class="button button-primary button-small" id="newCertificateBtn">＋ Add certificate</button></div><div id="certificateEditorList" class="editor-list"></div><form id="certificateEditorForm" class="editor-form" hidden><input type="hidden" id="certificateId"><label for="certificateTitle">Certificate title</label><input id="certificateTitle" required><label for="certificateIssuer">Issuing organization</label><input id="certificateIssuer" required><div class="form-two"><div><label for="certificateDate">Issue date</label><input id="certificateDate" placeholder="e.g. 2025"></div><div><label for="certificateUrl">Credential URL (optional)</label><input id="certificateUrl" type="url"></div></div><label for="certificateDescription">Description</label><textarea id="certificateDescription" rows="2"></textarea><label for="certificateFile">Certificate image/PDF</label><input id="certificateFile" type="file" accept=".pdf,image/*"><div class="editor-actions"><button class="button button-primary" type="submit">Save certificate</button><button class="button button-outline" type="button" id="cancelCertificate">Cancel</button></div></form></div>
+      <div class="tab-content" id="tab-data"><div class="backup-card"><span class="backup-icon">↗</span><h3>Back up your portfolio</h3><p>Export your editable content as a JSON file. For a full backup, also download your uploaded files individually.</p><button class="button button-primary" id="exportData">Export portfolio data</button></div><div class="backup-card"><h3>Restore content</h3><p>Import a JSON backup created by this portfolio. This replaces the current text and project data.</p><input type="file" id="importData" accept=".json"><button class="button button-outline" id="importDataBtn">Import backup</button></div><div class="backup-card"><h3>Reset demo content</h3><p>Restore the original starter content in this browser.</p><button class="button button-outline" id="resetData">Reset portfolio data</button></div><p id="backupFeedback" class="form-note"></p></div>
+    </div>
+  </section></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
